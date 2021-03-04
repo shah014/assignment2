@@ -11,4 +11,4 @@ print(l_s)
 
 even = lambda x:x % 2 == 0
 res = list(filter(even,l_s))
-print(f"Ëven no from the list are : {res} ")
+print(f"Even no from the list are : {res} ")

@@ -1,5 +1,7 @@
-t = input()
-a = tuple(int(x) for x in t.split())
+t = 1, 2, 3
 print(f"Tuple unpacking: {t}")
-print(f"Tuple packing: {a}")
+a, b, c = t
+print(f"Unpacking tuple in variable: {a+b+c}")
+
+a, b, c = t
 
